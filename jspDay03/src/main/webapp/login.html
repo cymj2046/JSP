@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>로그인</title>
+</head>
+<body>
+<!-- from의 action 속성값은 전송할 서버측 프로그램을 지정 -->
+<!-- from의 method 속성값은 데이터 전송 방식을 지정함 get|post 기본값은 get -->
+<form action="Login"><!-- method = get -->
+<table>
+<tr>
+<td colspan="2" align="center">로그인</td>
+</tr>
+<tr>
+<td>아이디</td>
+<td><input type="email" name="email" placeholder="Email address"></td>
+</tr>
+<tr>
+<td>패스워드</td>
+<td><input type="password" name="pwd"></td>
+</tr>
+<tr>
+<td>이름</td>
+<td><input type="text" name="name"></td>
+</tr>
+<tr>
+<td colspan="2" align="center"><input type="submit" value="로그인"></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
