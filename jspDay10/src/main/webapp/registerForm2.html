@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="MemberELServ" method="post">
+	<table width="550">
+		<tr>
+			<td colspan="2" align="center">회원정보입력</td>
+			<!-- td>1-2</td -->
+		</tr>
+		<tr>
+			<td align="right">이름&nbsp;&nbsp;</td>
+			<td><input type="text" name="name"></td>
+		</tr>
+		<tr>
+			<td align="right">아이디&nbsp;&nbsp;</td>
+			<td><input type="text" name="id"></td>
+		</tr>
+		<tr>
+			<td align="right">비밀번호&nbsp;&nbsp;</td>
+			<td><input type="password" name="pwd"></td>
+		</tr>
+		<tr>
+			<td align="right">이메일&nbsp;&nbsp;</td>
+			<td><input type="email" name="email" placeholder="aaa@abc.com 형식 입력"></td>
+		</tr>
+		<tr>
+			<td align="right">성별&nbsp;&nbsp;</td>
+			<td>여자<input type="radio" name="gender" value="woman"> 
+				남자<input type="radio" name="gender" value="man"> 
+			</td>
+		</tr>
+		<tr>
+			<td align="right">좋아하는 음식&nbsp;&nbsp;</td>
+			<td><select name="food">
+			<option>회덥밥</option>
+			<option>김치찌개</option>
+			<option>떡볶이</option>
+			<option>짜장면</option>
+			</select></td>
+		</tr>
+		<tr>
+			<td align="right">관심영역&nbsp;&nbsp;</td>
+			<td><input type="checkbox" name="interest" value="웹프로그램" checked>웹프로그램
+			<input type="checkbox" name="interest" value="데이타분석">데이타분석
+			<input type="checkbox" name="interest" value="인공지능">인공지능
+			</td>
+		</tr>
+		<tr>
+			<td align="right">좋아하는 색상&nbsp;&nbsp;</td>
+			<td><input type="color" name="color" value="#FF0000"></td>
+		</tr>
+		<tr>
+			<td align="right">생년월일&nbsp;&nbsp;</td>
+			<td><input type="date" name="date"></td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center"><input type="submit" value="제출">
+			<input type="reset" value="취소">
+			</td>
+			<!-- td>11-2</td -->
+		</tr>
+	</table>
+</form>
+</body>
+</html>
